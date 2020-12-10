@@ -11,11 +11,21 @@
 
     <script>
         //AND OR NOT
-        var sexo = 'M', idade = 23
+        var sexo = 'F'
 
-        if (sexo === 'M' || idade >= 18) {
-            console.log('OK')
+
+        /*
+        if( sexo == 'M'){
+            return 'Masculino'
+        } 
+        else {
+            return 'Feminino'
         }
+        */
+
+        //essa é a condição ternaria 
+        var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+        console.log(retorno)
 
 
     </script>
